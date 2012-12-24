@@ -3,13 +3,13 @@
 \.o$
 ~$
 ^build-dir
-^build
-^include/openflow/private
+build
+include/openflow/private
 ^testpy-output
 ^doc/html
 ^doc/latex
-^\.lock-wscript
-^\.waf
+.lock-wscript
+.waf*
 ^doc/introspected-doxygen\.h$
 .*\.py[co]$
 \.pcap$
