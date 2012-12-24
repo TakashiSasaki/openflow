@@ -32,7 +32,15 @@
  */
 #ifndef XTOXLL_H
 #define XTOXLL_H 1
-
+#ifdef IPPROTO_ICMP
+  #undef IPPROTO_ICMP
+#endif
+#ifdef IPPROTO_TCP
+  #undef IPPROTO_TCP
+#endif
+#ifdef IPPROTO_UDP
+  #undef IPPROTO_UDP
+#endif
 #include <arpa/inet.h>
 #include <sys/types.h>
 
